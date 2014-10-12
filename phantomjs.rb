@@ -21,7 +21,7 @@ class Phantomjs < Formula
     # Upstream have said won't fix 1.9.x for Yosemite
     # https://github.com/ariya/phantomjs/issues/10648
     # Please remove this dependency with the next stable 2.0 release.
-    # depends_on MaximumMacOSRequirement => :mavericks
+    depends_on MaximumMacOSRequirement => :mavericks
   end
 
   head "https://github.com/ariya/phantomjs.git"
